@@ -110,9 +110,10 @@ ul, ol {
 
 .tooltip-text{
     position: absolute;
-    background-color: black;
+    background-color: #3A3A3A;
     color: white;
     border-radius: 4px;
+    border: 2px dashed  #E59AB6;
     padding: 2px;
     visibility: hidden;
     opacity: 0;
