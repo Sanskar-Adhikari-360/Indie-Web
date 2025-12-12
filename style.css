@@ -12,7 +12,21 @@ body {
     background-repeat: no-repeat;
     background-attachment: fixed;
      */
+     color: #001011;
 }
+
+.single-day-regular {
+  font-family: "Single Day", cursive;
+  font-weight: 400;
+  font-style: normal;
+}
+
+.indie-flower-regular {
+  font-family: "Indie Flower", cursive;
+  font-weight: 400;
+  font-style: normal;
+}
+
 
 
 .page-wrapper{
@@ -32,7 +46,7 @@ body {
 
 .test{
     background-color: #5797B2;
-    height: 100px;
+    height: fit-content;
     width: auto;
     border-radius: 4px;
 }
@@ -66,3 +80,8 @@ body {
     grid-area: Blinkies;
 } */
 
+ul, ol {
+  list-style-type: none; /* Removes bullets/numbers */
+  margin: 0;             /* Removes default browser margin */
+  padding: 0;            /* Removes default browser indentation */
+}
