@@ -1,0 +1,68 @@
+/* Main Pink: #F9CADA (light rosy pink)
+Accent Pink: #F7A4C0 (slightly deeper cotton-candy pink)
+Text Color: #4A4A4A (soft charcoal for readability)
+Secondary Accent (Buttons/Headers): #FCDDE8 (baby-pink highlight)
+Complement to Match Your Green: #CDECC6 (pastel mint to match your bows) */
+
+
+body {
+    background-image: url('assets/image/tumblr_inline_mlkxr4nUiK1r53miq.png');
+    /* background-size: cover;
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+     */
+}
+
+
+.page-wrapper{
+    
+    padding: 10px;
+    height: 500px;
+    /* background-image: url(assets/Abstract\ Sakura\ Cherry\ blossoms\ animated\ wallpaper.jpga); */
+    background-color: #CFF5D2;
+    border: 2px #E59AB6 dashed;
+    border-radius: 2px;
+    margin-left: 8%;
+    margin-top: 3%;
+    margin-right: 8%;
+    border-radius: 5px;
+    /* margin: 25%; */
+}
+
+.test{
+    background-color: #5797B2;
+    height: 100px;
+    width: auto;
+    border-radius: 4px;
+}
+
+.container-Grid{
+    display: grid;
+    grid-template-columns: 1fr 3fr 1fr;
+    grid-gap: 20px;
+    /* grid-template-areas: "Nav Content About-me"
+                        "Nav Content About-me"
+                        "Nav Content About-me"
+                        "Nav Content About-me"
+                        "Nav Change-log About-me"
+                        "Nav Change-log About-me"
+                        "Bilinkies Bilinkies Bilinkies"; */
+}
+
+/* #Nav{ 
+    grid-area: Nav;
+}
+#Content{
+    grid-area: Content;
+}
+#about-me{
+    grid-area: About-me;
+}
+#change-log{
+    grid-area: Change-log;
+}
+#blinkies{
+    grid-area: Blinkies;
+} */
+
