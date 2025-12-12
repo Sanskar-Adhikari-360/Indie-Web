@@ -12,7 +12,7 @@ body {
     background-repeat: no-repeat;
     background-attachment: fixed;
      */
-     color: #001011;
+     color: #f4f3f1;
 }
 
 .single-day-regular {
@@ -24,7 +24,7 @@ body {
 .indie-flower-regular {
   font-family: "Indie Flower", cursive;
   font-weight: 400;
-  font-style: normal;
+  font-style: normal;   
 }
 
 
@@ -45,7 +45,7 @@ body {
 }
 
 .test{
-    background-color: #5797B2;
+    background-color: #344C3D;
     height: fit-content;
     width: auto;
     border-radius: 4px;
@@ -84,4 +84,16 @@ ul, ol {
   list-style-type: none; /* Removes bullets/numbers */
   margin: 0;             /* Removes default browser margin */
   padding: 0;            /* Removes default browser indentation */
+}
+
+.profile-image-container{
+    display: flex;
+    justify-content: center;
+}
+.about-me-content{
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    margin: 15px;
+    
 }
