@@ -104,7 +104,7 @@ ul, ol {
 
 .tooltip{
     position: relative;
-    border-bottom: 2px dotted;
+    /* border-bottom: 2px dotted; */
     cursor: pointer;
 }
 
@@ -139,4 +139,6 @@ ul, ol {
     opacity: 1;
 }
 
-
+.content-container{
+    margin: 16px;
+}
