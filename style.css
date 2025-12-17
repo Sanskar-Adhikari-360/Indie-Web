@@ -141,3 +141,7 @@ ul, ol {
 .content-container{
     margin: 1em;
 }
+
+.marquee-container > marquee > img {
+    margin-left: .25em;
+}
